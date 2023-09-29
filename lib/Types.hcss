@@ -1,0 +1,2 @@
+Type LengthValue = new Type(r"(\d*\.?\d*)(px|em|pt|cm|mm|in|pc|rem|vw|vh|vmin|vmax|%)"i)
+Type any = new Type(r"[\s\S]*")

@@ -1,0 +1,17 @@
+import { * } from "Properties"
+
+Selector h1 = new Selector("h1")
+Selector headings = new Selector("h1,h2,h3,h4,h5,h6")
+
+FontFace Roboto = new FontFace([
+    {
+        name: "Roboto"
+        style: {weight: 400, style: "italic"}
+    }
+])
+
+StyleSheet main = new StyleSheet({
+    [h1]: {
+        fontSize: 14px
+    }
+})
