@@ -1,3 +1,0 @@
-import { * } from 'Types';
-
-Property fontSize = new Property("font-size", true, LengthValue)

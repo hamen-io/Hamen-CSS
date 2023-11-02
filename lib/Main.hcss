@@ -1,0 +1,16 @@
+package "Main";
+
+let y = 19px;
+let x = (13px + 32.3px) + ((y / 2) + 9px);
+
+x = 29px;
+
+$[ x:hover > [ help, button ] /> [p] , p, p>[e] ] {
+    backgroundColor: red;
+
+    &:active {
+        backgroundColor: white;
+    }
+
+    [color = backgroundColor]: white;
+};
